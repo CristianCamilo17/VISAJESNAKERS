@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C0C0C"
+    tools:context=".PARCEROS">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="419dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="492dp"
+        android:layout_marginEnd="14dp"
+        android:background="#F1EEEE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <Button
+            android:id="@+id/VOLVER"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="16dp"
+            android:onClick="VOLVER"
+            android:text="INICIO"
+            android:textColor="#0B0A0A"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="115dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="280dp"
+        android:text="PARCERO"
+        android:textAlignment="center"
+        android:textColor="#F8F5F5"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="416dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="4dp"
+        android:background="#F4F2F2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="423dp"
+            android:layout_height="65dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/LONEW"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="LONEW"
+                android:text="LONEW"
+                android:textColor="#0C0C0C" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PARCERO"
+                android:textColor="#151414" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PARCERA"
+                android:textColor="#131313" />
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TODO"
+                android:textColor="#131313" />
+
+        </TableRow>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="116dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="47dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+        app:srcCompat="@drawable/logo2_removebg_preview__1_" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="85dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="236dp"
+        android:text="200.000"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="71dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="42dp"
+        android:text="300.000"
+        android:textColor="#F8F3F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:text="350.000"
+        android:textColor="#F3EFEF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/COMPRARA"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="128dp"
+        android:text="COMPRAR"
+        app:layout_constraintEnd_toStartOf="@+id/COMPRARNE"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/COMPRARNE"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="47dp"
+        android:text="COMPRAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/COMPARR"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="136dp"
+        android:text="COMPRAR"
+        app:layout_constraintEnd_toStartOf="@+id/COMPRARNIK"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/COMPRARNIK"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="COMPRAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="42dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/adidas_tenis" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="164dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/new_balance_" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="258dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/COMPRARA"
+        app:srcCompat="@drawable/reebok_tenis" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="167dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/COMPRARNE"
+        app:srcCompat="@drawable/nike_tenis_2_" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="67dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="44dp"
+        android:text="400.000"
+        android:textColor="#FAF9F9"
+        android:textColorHint="#F3F1F1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

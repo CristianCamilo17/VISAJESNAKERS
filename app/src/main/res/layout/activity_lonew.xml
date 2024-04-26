@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#020202"
+    tools:context=".LONEW">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="406dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="502dp"
+        android:layout_marginEnd="3dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6">
+
+        <Button
+            android:id="@+id/INICIO"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="280dp"
+            android:onClick="VOLVER"
+            android:text="INICIO"
+            android:textColor="#0B0A0A"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="111dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="112dp"
+        android:text="LO NEW"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FAF6F6"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="416dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="1dp"
+        android:background="#FAF9F9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="411dp"
+            android:layout_height="52dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/LONEW"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LO NEW"
+                android:textColor="#101010" />
+
+            <Button
+                android:id="@+id/PARCERO"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="parcero"
+                android:text="PARCERO"
+                android:textColor="#0B0A0A" />
+
+            <Button
+                android:id="@+id/PARCERA"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PARCERA"
+                android:textColor="#090909" />
+
+            <Button
+                android:id="@+id/TODO"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TODO"
+                android:textColor="#070707" />
+        </TableRow>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="158dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
+        app:srcCompat="@drawable/logo2_removebg_preview__1_" />
+
+    <VideoView
+        android:id="@+id/VIDEO1"
+        android:layout_width="371dp"
+        android:layout_height="387dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

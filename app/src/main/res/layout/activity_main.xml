@@ -63,24 +63,26 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <Button
-                android:id="@+id/button14"
+                android:id="@+id/LONEW"
                 style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="LONEW"
                 android:text="LO NEW"
                 android:textColor="#090909" />
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/PARCERO"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="parcero"
                 android:text="PARCERO"
                 android:textColor="#000000"
                 app:rippleColor="#040404" />
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/PARCERA"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -88,7 +90,7 @@
                 android:textColor="#121212" />
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/TODO"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -124,7 +126,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView11">
 
         <Button
-            android:id="@+id/button17"
+            android:id="@+id/OFERTAS"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -139,7 +141,7 @@
             app:layout_constraintVertical_bias="1.0" />
 
         <Button
-            android:id="@+id/button19"
+            android:id="@+id/COMPRA"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -150,7 +152,7 @@
             android:textColor="#101010"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/button17"
+            app:layout_constraintStart_toEndOf="@+id/OFERTAS"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
