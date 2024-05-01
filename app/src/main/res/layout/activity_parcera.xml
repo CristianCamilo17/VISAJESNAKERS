@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0C0C0C"
-    tools:context=".PARCEROS">
+    tools:context=".PARCERA">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout3"
@@ -42,7 +42,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="14dp"
         android:layout_marginEnd="280dp"
-        android:text="PARCERO"
+        android:text="PARCERA"
         android:textAlignment="center"
         android:textColor="#F8F5F5"
         android:textStyle="bold|italic"
@@ -81,6 +81,7 @@
                 style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="PARCERO"
                 android:text="PARCERO"
                 android:textColor="#151414" />
 

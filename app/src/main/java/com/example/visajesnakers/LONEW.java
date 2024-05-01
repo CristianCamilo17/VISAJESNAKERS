@@ -50,5 +50,22 @@ public class LONEW extends AppCompatActivity {
 
 
 
+    public void PARCERA (View view){
+
+        Intent PARCERA =new Intent(this, com.example.visajesnakers.PARCERA.class);
+        startActivities(new Intent[]{PARCERA});
+
+    }
+
+
+    public void TODO (View view){
+
+        Intent TODO =new Intent(this, com.example.visajesnakers.TODO.class);
+        startActivities(new Intent[]{TODO});
+
+    }
+
+
+
 
 }

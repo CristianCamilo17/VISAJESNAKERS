@@ -86,6 +86,7 @@
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="PARCERA"
                 android:text="PARCERA"
                 android:textColor="#121212" />
 
@@ -94,6 +95,7 @@
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="TODO"
                 android:text="TODO"
                 android:textColor="#151515" />
 

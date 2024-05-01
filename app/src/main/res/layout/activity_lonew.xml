@@ -87,6 +87,7 @@
                 style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="PARCERA"
                 android:text="PARCERA"
                 android:textColor="#090909" />
 
@@ -95,6 +96,7 @@
                 style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="TODO"
                 android:text="TODO"
                 android:textColor="#070707" />
         </TableRow>
